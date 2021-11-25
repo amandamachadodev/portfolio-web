@@ -1,0 +1,45 @@
+  body {
+    background-color: #b392ac;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+padding: 3%;  
+}
+  h3 {
+    font-family: "Helvetica";
+    text-align: center;
+  }
+  p {
+    font-family:"Arial";
+  }
+  #faculdade {
+    color:#ffadad;
+  }
+  #curso {
+    color :#ffadad;
+  }
+    #escola {
+    color:#caffbf;
+  }
+  .pequeno {
+    font-size:25px;
+  }
+  img {
+    border-radius: 50%
+  }
+  #foto {
+    float:left;
+    height: 280px;
+    padding: 3px;
+    background-color:purple;
+  }
+  #image-container {
+  height: 300px;
+
+  }
+ div p {
+     position:relative;
+     top: 30%;
+     text-align: center;
+ }
+ ul li:nth-child(odd) {
+     text-decoration:underline;
+ }

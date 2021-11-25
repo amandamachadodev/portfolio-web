@@ -3,37 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>Meu portfólio Web</title>
-    <style>
-      body {
-        background-color: #b392ac;
-        color: white; text-shadow: black 0.1em 0.1em 0.2em;
-        
-
-      }
-      h3 {
-        font-family: "Helvetica";
-      }
-      p {
-        font-family:"Arial";
-      }
-      #faculdade {
-        color:#ffadad;
-      }
-      #curso {
-        color :#ffadad;
-      }
-        #escola {
-        color:#caffbf;
-      }
-      .pequeno {
-        font-size:25px;
-      }
-      img {
-        border-radius: 50%;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    
     <h2>Meu Portfólio Web</h2>
     <ol><em>
         <li><a href="#Amanda">Sobre mim</a></li>
@@ -41,14 +14,19 @@
         <li><a href="#Habilidades que estou adquirindo">Habilidades que estou adquirindo</a></li>
         <li><a href="#Habilidades que mais me orgulho">Habilidades que mais me orgulho</a></li>
     </em>
-
     </ol>
     <hr>
-    <h3 id="Amanda">Amanda Garcia Machado</h3>
-    <em>
-    <p>Olá. Me chamo <a href="#Foto da Amanda com flor amarela">Amanda</a> e meu apelido é Mandi, eu tenho 23 anos e sou natural de Curitiba/PR-Brasil, mas moro no Distrito Federal. Atualmente curso <span id="faculdade">Análise e Desenvolvimento de Sistemas</span> e estudo <span id="curso">Desenvolvimento Web</span> na <span id="escola">Trybe</span>!</p>
- 
- <hr>
+    
+    <div>
+     <h3 id="Amanda">Amanda Garcia Machado</h3>
+    <div id="image-container">
+      <img id="foto" src="https://media-exp1.licdn.com/dms/image/C5603AQF1wFEZl2W5cg/profile-displayphoto-shrink_800_800/0/1636545980995?e=1642636800&v=beta&t=fg3HJqsWsOE89aXvYrn6jeI7lYU61Kzb-4tPeHqVbRY">
+      <p>Olá. Me chamo <a href="#foto">Amanda</a> e meu apelido é Mandi, eu tenho 23 anos e sou natural de Curitiba/PR-Brasil, mas moro no Distrito Federal. Atualmente curso <span id="faculdade">Análise e Desenvolvimento de Sistemas</span> e estudo <span id="curso">Desenvolvimento Web</span> na <span id="escola">Trybe</span>!</p>
+       
+    </div> 
+    </div> 
+    
+    <hr>
     
      <h4 id="Habilidades">Habilidades</h4>
      <ul><em>
@@ -84,9 +62,5 @@
 
          </em>
          </ul>
-
-    <img id="Foto da Amanda com flor amarela" src="https://media-exp1.licdn.com/dms/image/C5603AQF1wFEZl2W5cg/profile-displayphoto-shrink_800_800/0/1636545980995?e=1642636800&v=beta&t=fg3HJqsWsOE89aXvYrn6jeI7lYU61Kzb-4tPeHqVbRY"
-    width="300px" alt="Foto da Amanda com uma flor amarela"> 
-
   </body>
 </html>
